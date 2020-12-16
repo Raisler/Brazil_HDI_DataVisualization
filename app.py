@@ -5,7 +5,6 @@ import plotly.express as px
 from plotly.subplots import make_subplots
 import plotly.graph_objects as go
 import matplotlib.pyplot as plt
-import time
 
 
 def load_data(data):
