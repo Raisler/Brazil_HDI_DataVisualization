@@ -11,7 +11,7 @@ def load_data(data):
  data=pd.read_csv(data)
  return data
 
-df = load_data('hdi.csv')
+df = load_data('https://raw.githubusercontent.com/Raisler/Brazil_HDI_DataVisualization/main/hdi.csv')
 st.title('Human Development Index in Brazil')
 
 select = st.sidebar.selectbox('Choose', ['Home', 'Analysis by Year', 'Analysis by State'])
